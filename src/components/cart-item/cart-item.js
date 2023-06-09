@@ -1,7 +1,7 @@
 import React from "react";
 import './cart-item.css';
 
-export const CartItem = ({ price, title, id }) => {
+export const CartItem = ({ price, title }) => {
     return (
         <div className="cart-item">
             <span> { title }</span>
