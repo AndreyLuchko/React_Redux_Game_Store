@@ -25,7 +25,7 @@ export const CartMenu = ({ items, onClick }) => {
                     <div className='cart-menu__arrange'>
                         <div className='cart-menu__total-price'>
                             <span>Total:</span>
-                            <span>{calcTotalPrice(items)} uah</span>
+                            <span>{calcTotalPrice(items)} UAH</span>
                         </div>
                         <Button type="primary" size="m" onClick={onClick}>
                             Place an Order

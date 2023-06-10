@@ -6,6 +6,7 @@ import { calcTotalPrice } from "../../components/utils/utils";
 
 export const OrderPage = () => {
     const items = useSelector(state => state.cart.itemsInCart);
+    const enumerate = items.length > 1 ? 'products' : 'product'
 
     if (items.length < 1) {
         return <h1>Your cart is empty</h1>
@@ -19,7 +20,7 @@ export const OrderPage = () => {
             <div className="order-page__right">
                 <div className="order-page__total-price">
                     <span>
-                      {items.length} products for the amount { calcTotalPrice(items) } UAH
+                      {items.length} {enumerate} for the amount { calcTotalPrice(items) } UAH
                     </span>
                 </div>
             </div>

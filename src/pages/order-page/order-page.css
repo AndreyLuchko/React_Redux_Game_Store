@@ -1,0 +1,17 @@
+.order-page {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.order-page__left {
+    flex: 1 0 70%;
+}
+
+.order-page__total-price {
+    flex: 1 0 30%;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 0 20px;
+    border-radius: 7px;
+}
