@@ -6,7 +6,7 @@ import { GameBuy } from '../../components/game-buy';
 import './game-page.css';
 
 export const GamePage = () => {
-    const game = useSelector(state => state.game.currentGame);
+    const game = useSelector(state => state.games.currentGame);
 
     if (!game) return null;
 
@@ -17,7 +17,6 @@ export const GamePage = () => {
                 <div className="game-page__left">
                     <iframe
                         src={game.video}
-                        frameborder="0"
                         width="90%"
                         height="400px"
                         title="Youtube Video Player">

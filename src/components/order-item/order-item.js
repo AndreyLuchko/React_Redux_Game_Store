@@ -1,9 +1,9 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { GameCover } from "../game-cover";
 import { AiOutlineCloseCircle } from "react-icons/ai";
-import './order-item.css';
 import { deleteItemFromCart } from "../../redux/cart/reducer";
+import { GameCover } from "../game-cover";
+import './order-item.css';
 
 export const OrderItem = ({game}) => {
     const dispatch = useDispatch();

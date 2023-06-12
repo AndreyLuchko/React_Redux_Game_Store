@@ -1,10 +1,10 @@
 import React, { useCallback, useState } from "react";
 import { useSelector } from "react-redux";
 import  { useNavigate } from "react-router-dom";
+import { BiCartAlt } from 'react-icons/bi'
 import { CartMenu } from '../cart-menu';
 import { ItemsInCart } from '../items-in-cart';
 import { calcTotalPrice } from "../utils/utils";
-import { BiCartAlt } from 'react-icons/bi'
 import './cart-block.css';
 
 export const CartBlock = () => {

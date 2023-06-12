@@ -3,6 +3,10 @@
     width: 70%;
 }
 
+.game-page__left iframe {
+    border: none;
+}
+
 .game-page__right {
     width: 30%;
 }
