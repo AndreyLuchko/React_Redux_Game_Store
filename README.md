@@ -11,7 +11,7 @@
 
 ## Demo
 
-![](https://github.com/AndreyLuchko/React_Employees_app/blob/main/public/game-store.gif)
+![](https://github.com/AndreyLuchko/React_Redux_Game_Store/blob/main/public/game-store.gif)
 
 
 ## Try it
